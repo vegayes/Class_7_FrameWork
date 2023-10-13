@@ -1,0 +1,6 @@
+package edu.kh.project.common;
+
+public class Snippet {
+		public int updateProfile(MultipartFile profileImage, String webPath, String filePath, Member loginMember) 
+}
+
