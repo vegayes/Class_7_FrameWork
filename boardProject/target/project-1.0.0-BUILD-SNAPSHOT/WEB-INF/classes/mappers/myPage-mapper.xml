@@ -14,7 +14,7 @@
 	
 	
 	<!--  회원 프로필 이미지 수정 -->
-	<update id = "updateProfileImage" paramterType = "Member">
+	<update id = "updateProfileImage" parameterType = "Member">
 		UPDATE "MEMBER" SET
 		PROFILE_IMG = #{profileImage}
 		WHERE MEMBER_NO = #{memberNo}
